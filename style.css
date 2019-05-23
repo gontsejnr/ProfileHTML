@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightblue;
+    
   }
   
   li {
@@ -20,13 +20,20 @@
   
   li a:hover {
     background-color:white;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration: 2px;
+  }
+  .active {
+    text-decoration: underline;
+    text-decoration-color: red;
   }
 
   img {
     padding: 70px;
     border-radius: 50%;
-    width: 250;
-    height: 250;
+    width: 500;
+    height: 500;
     margin-left: auto;
     margin-right: auto;
   }
